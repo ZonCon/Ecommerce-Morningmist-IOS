@@ -66,6 +66,7 @@
 		1FFF625D1CC63DCB0094D6E1 /* cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FFF625A1CC63DCB0094D6E1 /* cover.jpg */; };
 		1FFF625E1CC63DCB0094D6E1 /* loading.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FFF625B1CC63DCB0094D6E1 /* loading.jpg */; };
 		1FFF625F1CC63DCB0094D6E1 /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FFF625C1CC63DCB0094D6E1 /* share.png */; };
+		1FFF62631CC656CB0094D6E1 /* bin.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FFF62621CC656CB0094D6E1 /* bin.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -201,6 +202,7 @@
 		1FFF625A1CC63DCB0094D6E1 /* cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cover.jpg; path = images/cover.jpg; sourceTree = SOURCE_ROOT; };
 		1FFF625B1CC63DCB0094D6E1 /* loading.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = loading.jpg; path = images/loading.jpg; sourceTree = SOURCE_ROOT; };
 		1FFF625C1CC63DCB0094D6E1 /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = share.png; path = images/share.png; sourceTree = SOURCE_ROOT; };
+		1FFF62621CC656CB0094D6E1 /* bin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bin.png; path = images/bin.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -306,6 +308,7 @@
 		1F1F23621CBFB80F003EA484 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				1FFF62621CC656CB0094D6E1 /* bin.png */,
 				1FFF625A1CC63DCB0094D6E1 /* cover.jpg */,
 				1FFF625B1CC63DCB0094D6E1 /* loading.jpg */,
 				1FFF625C1CC63DCB0094D6E1 /* share.png */,
@@ -632,6 +635,7 @@
 				1FFF625E1CC63DCB0094D6E1 /* loading.jpg in Resources */,
 				1FFF625F1CC63DCB0094D6E1 /* share.png in Resources */,
 				1F1F23331CBFAAD2003EA484 /* LaunchScreen.storyboard in Resources */,
+				1FFF62631CC656CB0094D6E1 /* bin.png in Resources */,
 				1F1F23301CBFAAD2003EA484 /* Assets.xcassets in Resources */,
 				1F1F235F1CBFB70A003EA484 /* Main.storyboard in Resources */,
 				1FFF625D1CC63DCB0094D6E1 /* cover.jpg in Resources */,
