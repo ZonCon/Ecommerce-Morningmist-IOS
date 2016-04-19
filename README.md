@@ -5,7 +5,7 @@ Steps:
 
 1. Download the repository
 
-2. Open as an existing project Android Studio
+2. Open as an existing project in Xcode
 
 3. Compile and Run
 
