@@ -1,0 +1,962 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F1F23251CBFAAD2003EA484 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1F23241CBFAAD2003EA484 /* main.m */; };
+		1F1F23281CBFAAD2003EA484 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1F23271CBFAAD2003EA484 /* AppDelegate.m */; };
+		1F1F23301CBFAAD2003EA484 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F1F232F1CBFAAD2003EA484 /* Assets.xcassets */; };
+		1F1F23331CBFAAD2003EA484 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F1F23311CBFAAD2003EA484 /* LaunchScreen.storyboard */; };
+		1F1F233E1CBFAAD2003EA484 /* Zoncon_Ecommerce_MorningmistTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1F233D1CBFAAD2003EA484 /* Zoncon_Ecommerce_MorningmistTests.m */; };
+		1F1F23491CBFAAD2003EA484 /* Zoncon_Ecommerce_MorningmistUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1F23481CBFAAD2003EA484 /* Zoncon_Ecommerce_MorningmistUITests.m */; };
+		1F1F23591CBFB1A9003EA484 /* SyncViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1F23581CBFB1A9003EA484 /* SyncViewController.m */; };
+		1F1F235C1CBFB1DA003EA484 /* DbHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1F235B1CBFB1DA003EA484 /* DbHelper.m */; };
+		1F1F235F1CBFB70A003EA484 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F1F235D1CBFB70A003EA484 /* Main.storyboard */; };
+		1F1F236A1CBFB951003EA484 /* CouponRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1F23671CBFB951003EA484 /* CouponRecord.m */; };
+		1F1F236B1CBFB951003EA484 /* TaxRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1F23691CBFB951003EA484 /* TaxRecord.m */; };
+		1F1F236D1CBFBA17003EA484 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1F236C1CBFBA17003EA484 /* libsqlite3.tbd */; };
+		1F1F23711CBFC7A8003EA484 /* SelectLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1F23701CBFC7A8003EA484 /* SelectLocationController.m */; };
+		1F4EC2221CC0D210006BD439 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EC2211CC0D210006BD439 /* NavigationViewController.m */; };
+		1F4EC2271CC0D607006BD439 /* ShopCategoriesViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EC2241CC0D607006BD439 /* ShopCategoriesViewCell.m */; };
+		1F4EC2281CC0D607006BD439 /* ShopCategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EC2261CC0D607006BD439 /* ShopCategoriesViewController.m */; };
+		1F4EC22B1CC1044D006BD439 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EC22A1CC1044D006BD439 /* MenuTableViewController.m */; };
+		1F4EC2381CC111B4006BD439 /* DetectLoginTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EC2311CC111B4006BD439 /* DetectLoginTableViewController.m */; };
+		1F4EC2391CC111B4006BD439 /* ForgotPasswordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EC2331CC111B4006BD439 /* ForgotPasswordTableViewController.m */; };
+		1F4EC23A1CC111B4006BD439 /* LoginTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EC2351CC111B4006BD439 /* LoginTableViewController.m */; };
+		1F4EC23B1CC111B4006BD439 /* ResetTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EC2371CC111B4006BD439 /* ResetTableViewController.m */; };
+		1F4EC2451CC113BC006BD439 /* OrderDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EC23E1CC113BC006BD439 /* OrderDetailsViewController.m */; };
+		1F4EC2461CC113BC006BD439 /* OrdersListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EC2401CC113BC006BD439 /* OrdersListCollectionViewCell.m */; };
+		1F4EC2471CC113BC006BD439 /* OrdersListCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EC2421CC113BC006BD439 /* OrdersListCollectionViewController.m */; };
+		1F4EC2481CC113BC006BD439 /* OrdersListFooterCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EC2441CC113BC006BD439 /* OrdersListFooterCollectionReusableView.m */; };
+		1F4EC24B1CC11532006BD439 /* ShopItemDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EC24A1CC11532006BD439 /* ShopItemDetailsViewController.m */; };
+		1F4EC24E1CC11637006BD439 /* ImageScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EC24D1CC11637006BD439 /* ImageScreenViewController.m */; };
+		1F4EC2511CC2699A006BD439 /* CreateAccountTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EC2501CC2699A006BD439 /* CreateAccountTableViewController.m */; };
+		1FFF61F31CC2B2210094D6E1 /* ShopItemsListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF61EE1CC2B2210094D6E1 /* ShopItemsListCollectionViewCell.m */; };
+		1FFF61F41CC2B2210094D6E1 /* ShopItemsListCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF61F01CC2B2210094D6E1 /* ShopItemsListCollectionViewController.m */; };
+		1FFF61F51CC2B2210094D6E1 /* ShopItemsListFooterCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF61F21CC2B2210094D6E1 /* ShopItemsListFooterCollectionReusableView.m */; };
+		1FFF620C1CC4C90D0094D6E1 /* PoliciesDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF62071CC4C90D0094D6E1 /* PoliciesDetailsViewController.m */; };
+		1FFF620D1CC4C90D0094D6E1 /* PoliciesListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF62091CC4C90D0094D6E1 /* PoliciesListCollectionViewCell.m */; };
+		1FFF620E1CC4C90D0094D6E1 /* PoliciesListCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF620B1CC4C90D0094D6E1 /* PoliciesListCollectionViewController.m */; };
+		1FFF62181CC4EA370094D6E1 /* AboutDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF62111CC4EA370094D6E1 /* AboutDetailsViewController.m */; };
+		1FFF62191CC4EA370094D6E1 /* AboutListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF62131CC4EA370094D6E1 /* AboutListCollectionViewCell.m */; };
+		1FFF621A1CC4EA370094D6E1 /* AboutListCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF62151CC4EA370094D6E1 /* AboutListCollectionViewController.m */; };
+		1FFF621B1CC4EA370094D6E1 /* AboutListFooterCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF62171CC4EA370094D6E1 /* AboutListFooterCollectionReusableView.m */; };
+		1FFF62291CC4FAB50094D6E1 /* CartCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF621E1CC4FAB50094D6E1 /* CartCollectionViewCell.m */; };
+		1FFF622A1CC4FAB50094D6E1 /* CartCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF62201CC4FAB50094D6E1 /* CartCollectionViewController.m */; };
+		1FFF622B1CC4FAB50094D6E1 /* CartCouponCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF62221CC4FAB50094D6E1 /* CartCouponCollectionViewCell.m */; };
+		1FFF622C1CC4FAB50094D6E1 /* CartFooterCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF62241CC4FAB50094D6E1 /* CartFooterCollectionReusableView.m */; };
+		1FFF622D1CC4FAB50094D6E1 /* CartHeaderCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF62261CC4FAB50094D6E1 /* CartHeaderCollectionReusableView.m */; };
+		1FFF622E1CC4FAB50094D6E1 /* CartMoneyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF62281CC4FAB50094D6E1 /* CartMoneyCollectionViewCell.m */; };
+		1FFF62331CC50FCA0094D6E1 /* CheckoutTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF62321CC50FCA0094D6E1 /* CheckoutTableViewController.m */; };
+		1FFF62411CC53D7F0094D6E1 /* ConfirmCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF62361CC53D7F0094D6E1 /* ConfirmCollectionViewCell.m */; };
+		1FFF62421CC53D7F0094D6E1 /* ConfirmCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF62381CC53D7F0094D6E1 /* ConfirmCollectionViewController.m */; };
+		1FFF62431CC53D7F0094D6E1 /* ConfirmFooterCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF623A1CC53D7F0094D6E1 /* ConfirmFooterCollectionReusableView.m */; };
+		1FFF62441CC53D7F0094D6E1 /* ConfirmHeaderCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF623C1CC53D7F0094D6E1 /* ConfirmHeaderCollectionReusableView.m */; };
+		1FFF62451CC53D7F0094D6E1 /* ConfirmMoneyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF623E1CC53D7F0094D6E1 /* ConfirmMoneyCollectionViewCell.m */; };
+		1FFF62461CC53D7F0094D6E1 /* ConfirmShippingCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF62401CC53D7F0094D6E1 /* ConfirmShippingCollectionViewCell.m */; };
+		1FFF62501CC5E69D0094D6E1 /* AlertsDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF62491CC5E69D0094D6E1 /* AlertsDetailsViewController.m */; };
+		1FFF62511CC5E69D0094D6E1 /* AlertsListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF624B1CC5E69D0094D6E1 /* AlertsListCollectionViewCell.m */; };
+		1FFF62521CC5E69D0094D6E1 /* AlertsListCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF624D1CC5E69D0094D6E1 /* AlertsListCollectionViewController.m */; };
+		1FFF62531CC5E69D0094D6E1 /* AlertsListFooterCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF624F1CC5E69D0094D6E1 /* AlertsListFooterCollectionReusableView.m */; };
+		1FFF62591CC5FB100094D6E1 /* PaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF62581CC5FB100094D6E1 /* PaymentViewController.m */; };
+		1FFF625D1CC63DCB0094D6E1 /* cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FFF625A1CC63DCB0094D6E1 /* cover.jpg */; };
+		1FFF625E1CC63DCB0094D6E1 /* loading.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FFF625B1CC63DCB0094D6E1 /* loading.jpg */; };
+		1FFF625F1CC63DCB0094D6E1 /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FFF625C1CC63DCB0094D6E1 /* share.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F1F233A1CBFAAD2003EA484 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F1F23181CBFAAD0003EA484 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F1F231F1CBFAAD0003EA484;
+			remoteInfo = "Zoncon Ecommerce Morningmist";
+		};
+		1F1F23451CBFAAD2003EA484 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F1F23181CBFAAD0003EA484 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F1F231F1CBFAAD0003EA484;
+			remoteInfo = "Zoncon Ecommerce Morningmist";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F1F23201CBFAAD0003EA484 /* Zoncon Ecommerce Morningmist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zoncon Ecommerce Morningmist.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1F23241CBFAAD2003EA484 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F1F23261CBFAAD2003EA484 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F1F23271CBFAAD2003EA484 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F1F232F1CBFAAD2003EA484 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F1F23321CBFAAD2003EA484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F1F23341CBFAAD2003EA484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F1F23391CBFAAD2003EA484 /* Zoncon Ecommerce MorningmistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zoncon Ecommerce MorningmistTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1F233D1CBFAAD2003EA484 /* Zoncon_Ecommerce_MorningmistTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Zoncon_Ecommerce_MorningmistTests.m; sourceTree = "<group>"; };
+		1F1F233F1CBFAAD2003EA484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F1F23441CBFAAD2003EA484 /* Zoncon Ecommerce MorningmistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zoncon Ecommerce MorningmistUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1F23481CBFAAD2003EA484 /* Zoncon_Ecommerce_MorningmistUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Zoncon_Ecommerce_MorningmistUITests.m; sourceTree = "<group>"; };
+		1F1F234A1CBFAAD2003EA484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F1F23561CBFB15A003EA484 /* globals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = globals.h; sourceTree = "<group>"; };
+		1F1F23571CBFB1A9003EA484 /* SyncViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyncViewController.h; sourceTree = "<group>"; };
+		1F1F23581CBFB1A9003EA484 /* SyncViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyncViewController.m; sourceTree = "<group>"; };
+		1F1F235A1CBFB1DA003EA484 /* DbHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DbHelper.h; sourceTree = "<group>"; };
+		1F1F235B1CBFB1DA003EA484 /* DbHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DbHelper.m; sourceTree = "<group>"; };
+		1F1F235E1CBFB70A003EA484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F1F23661CBFB950003EA484 /* CouponRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CouponRecord.h; path = "../../ZonconPngDiamonds/Abs Fitness Express/CouponRecord.h"; sourceTree = "<group>"; };
+		1F1F23671CBFB951003EA484 /* CouponRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CouponRecord.m; path = "../../ZonconPngDiamonds/Abs Fitness Express/CouponRecord.m"; sourceTree = "<group>"; };
+		1F1F23681CBFB951003EA484 /* TaxRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TaxRecord.h; path = "../../ZonconPngDiamonds/Abs Fitness Express/TaxRecord.h"; sourceTree = "<group>"; };
+		1F1F23691CBFB951003EA484 /* TaxRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TaxRecord.m; path = "../../ZonconPngDiamonds/Abs Fitness Express/TaxRecord.m"; sourceTree = "<group>"; };
+		1F1F236C1CBFBA17003EA484 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1F1F236F1CBFC7A8003EA484 /* SelectLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectLocationController.h; sourceTree = "<group>"; };
+		1F1F23701CBFC7A8003EA484 /* SelectLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectLocationController.m; sourceTree = "<group>"; };
+		1F4EC2201CC0D210006BD439 /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		1F4EC2211CC0D210006BD439 /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		1F4EC2231CC0D607006BD439 /* ShopCategoriesViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopCategoriesViewCell.h; sourceTree = "<group>"; };
+		1F4EC2241CC0D607006BD439 /* ShopCategoriesViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopCategoriesViewCell.m; sourceTree = "<group>"; };
+		1F4EC2251CC0D607006BD439 /* ShopCategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopCategoriesViewController.h; sourceTree = "<group>"; };
+		1F4EC2261CC0D607006BD439 /* ShopCategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopCategoriesViewController.m; sourceTree = "<group>"; };
+		1F4EC2291CC1044D006BD439 /* MenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewController.h; sourceTree = "<group>"; };
+		1F4EC22A1CC1044D006BD439 /* MenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewController.m; sourceTree = "<group>"; };
+		1F4EC2301CC111B4006BD439 /* DetectLoginTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetectLoginTableViewController.h; sourceTree = "<group>"; };
+		1F4EC2311CC111B4006BD439 /* DetectLoginTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetectLoginTableViewController.m; sourceTree = "<group>"; };
+		1F4EC2321CC111B4006BD439 /* ForgotPasswordTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgotPasswordTableViewController.h; sourceTree = "<group>"; };
+		1F4EC2331CC111B4006BD439 /* ForgotPasswordTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgotPasswordTableViewController.m; sourceTree = "<group>"; };
+		1F4EC2341CC111B4006BD439 /* LoginTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginTableViewController.h; sourceTree = "<group>"; };
+		1F4EC2351CC111B4006BD439 /* LoginTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginTableViewController.m; sourceTree = "<group>"; };
+		1F4EC2361CC111B4006BD439 /* ResetTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResetTableViewController.h; sourceTree = "<group>"; };
+		1F4EC2371CC111B4006BD439 /* ResetTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResetTableViewController.m; sourceTree = "<group>"; };
+		1F4EC23D1CC113BC006BD439 /* OrderDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderDetailsViewController.h; sourceTree = "<group>"; };
+		1F4EC23E1CC113BC006BD439 /* OrderDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderDetailsViewController.m; sourceTree = "<group>"; };
+		1F4EC23F1CC113BC006BD439 /* OrdersListCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrdersListCollectionViewCell.h; sourceTree = "<group>"; };
+		1F4EC2401CC113BC006BD439 /* OrdersListCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrdersListCollectionViewCell.m; sourceTree = "<group>"; };
+		1F4EC2411CC113BC006BD439 /* OrdersListCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrdersListCollectionViewController.h; sourceTree = "<group>"; };
+		1F4EC2421CC113BC006BD439 /* OrdersListCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrdersListCollectionViewController.m; sourceTree = "<group>"; };
+		1F4EC2431CC113BC006BD439 /* OrdersListFooterCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrdersListFooterCollectionReusableView.h; sourceTree = "<group>"; };
+		1F4EC2441CC113BC006BD439 /* OrdersListFooterCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrdersListFooterCollectionReusableView.m; sourceTree = "<group>"; };
+		1F4EC2491CC11532006BD439 /* ShopItemDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopItemDetailsViewController.h; sourceTree = "<group>"; };
+		1F4EC24A1CC11532006BD439 /* ShopItemDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopItemDetailsViewController.m; sourceTree = "<group>"; };
+		1F4EC24C1CC11637006BD439 /* ImageScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScreenViewController.h; sourceTree = "<group>"; };
+		1F4EC24D1CC11637006BD439 /* ImageScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageScreenViewController.m; sourceTree = "<group>"; };
+		1F4EC24F1CC2699A006BD439 /* CreateAccountTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateAccountTableViewController.h; sourceTree = "<group>"; };
+		1F4EC2501CC2699A006BD439 /* CreateAccountTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAccountTableViewController.m; sourceTree = "<group>"; };
+		1FFF61ED1CC2B2210094D6E1 /* ShopItemsListCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopItemsListCollectionViewCell.h; sourceTree = "<group>"; };
+		1FFF61EE1CC2B2210094D6E1 /* ShopItemsListCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopItemsListCollectionViewCell.m; sourceTree = "<group>"; };
+		1FFF61EF1CC2B2210094D6E1 /* ShopItemsListCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopItemsListCollectionViewController.h; sourceTree = "<group>"; };
+		1FFF61F01CC2B2210094D6E1 /* ShopItemsListCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopItemsListCollectionViewController.m; sourceTree = "<group>"; };
+		1FFF61F11CC2B2210094D6E1 /* ShopItemsListFooterCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopItemsListFooterCollectionReusableView.h; sourceTree = "<group>"; };
+		1FFF61F21CC2B2210094D6E1 /* ShopItemsListFooterCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopItemsListFooterCollectionReusableView.m; sourceTree = "<group>"; };
+		1FFF62061CC4C90D0094D6E1 /* PoliciesDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoliciesDetailsViewController.h; sourceTree = "<group>"; };
+		1FFF62071CC4C90D0094D6E1 /* PoliciesDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoliciesDetailsViewController.m; sourceTree = "<group>"; };
+		1FFF62081CC4C90D0094D6E1 /* PoliciesListCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoliciesListCollectionViewCell.h; sourceTree = "<group>"; };
+		1FFF62091CC4C90D0094D6E1 /* PoliciesListCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoliciesListCollectionViewCell.m; sourceTree = "<group>"; };
+		1FFF620A1CC4C90D0094D6E1 /* PoliciesListCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoliciesListCollectionViewController.h; sourceTree = "<group>"; };
+		1FFF620B1CC4C90D0094D6E1 /* PoliciesListCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoliciesListCollectionViewController.m; sourceTree = "<group>"; };
+		1FFF62101CC4EA370094D6E1 /* AboutDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutDetailsViewController.h; sourceTree = "<group>"; };
+		1FFF62111CC4EA370094D6E1 /* AboutDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutDetailsViewController.m; sourceTree = "<group>"; };
+		1FFF62121CC4EA370094D6E1 /* AboutListCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutListCollectionViewCell.h; sourceTree = "<group>"; };
+		1FFF62131CC4EA370094D6E1 /* AboutListCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutListCollectionViewCell.m; sourceTree = "<group>"; };
+		1FFF62141CC4EA370094D6E1 /* AboutListCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutListCollectionViewController.h; sourceTree = "<group>"; };
+		1FFF62151CC4EA370094D6E1 /* AboutListCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutListCollectionViewController.m; sourceTree = "<group>"; };
+		1FFF62161CC4EA370094D6E1 /* AboutListFooterCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutListFooterCollectionReusableView.h; sourceTree = "<group>"; };
+		1FFF62171CC4EA370094D6E1 /* AboutListFooterCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutListFooterCollectionReusableView.m; sourceTree = "<group>"; };
+		1FFF621D1CC4FAB50094D6E1 /* CartCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartCollectionViewCell.h; sourceTree = "<group>"; };
+		1FFF621E1CC4FAB50094D6E1 /* CartCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartCollectionViewCell.m; sourceTree = "<group>"; };
+		1FFF621F1CC4FAB50094D6E1 /* CartCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartCollectionViewController.h; sourceTree = "<group>"; };
+		1FFF62201CC4FAB50094D6E1 /* CartCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartCollectionViewController.m; sourceTree = "<group>"; };
+		1FFF62211CC4FAB50094D6E1 /* CartCouponCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartCouponCollectionViewCell.h; sourceTree = "<group>"; };
+		1FFF62221CC4FAB50094D6E1 /* CartCouponCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartCouponCollectionViewCell.m; sourceTree = "<group>"; };
+		1FFF62231CC4FAB50094D6E1 /* CartFooterCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartFooterCollectionReusableView.h; sourceTree = "<group>"; };
+		1FFF62241CC4FAB50094D6E1 /* CartFooterCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartFooterCollectionReusableView.m; sourceTree = "<group>"; };
+		1FFF62251CC4FAB50094D6E1 /* CartHeaderCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartHeaderCollectionReusableView.h; sourceTree = "<group>"; };
+		1FFF62261CC4FAB50094D6E1 /* CartHeaderCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartHeaderCollectionReusableView.m; sourceTree = "<group>"; };
+		1FFF62271CC4FAB50094D6E1 /* CartMoneyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartMoneyCollectionViewCell.h; sourceTree = "<group>"; };
+		1FFF62281CC4FAB50094D6E1 /* CartMoneyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartMoneyCollectionViewCell.m; sourceTree = "<group>"; };
+		1FFF62311CC50FCA0094D6E1 /* CheckoutTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckoutTableViewController.h; sourceTree = "<group>"; };
+		1FFF62321CC50FCA0094D6E1 /* CheckoutTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckoutTableViewController.m; sourceTree = "<group>"; };
+		1FFF62351CC53D7F0094D6E1 /* ConfirmCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmCollectionViewCell.h; sourceTree = "<group>"; };
+		1FFF62361CC53D7F0094D6E1 /* ConfirmCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfirmCollectionViewCell.m; sourceTree = "<group>"; };
+		1FFF62371CC53D7F0094D6E1 /* ConfirmCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmCollectionViewController.h; sourceTree = "<group>"; };
+		1FFF62381CC53D7F0094D6E1 /* ConfirmCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfirmCollectionViewController.m; sourceTree = "<group>"; };
+		1FFF62391CC53D7F0094D6E1 /* ConfirmFooterCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmFooterCollectionReusableView.h; sourceTree = "<group>"; };
+		1FFF623A1CC53D7F0094D6E1 /* ConfirmFooterCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfirmFooterCollectionReusableView.m; sourceTree = "<group>"; };
+		1FFF623B1CC53D7F0094D6E1 /* ConfirmHeaderCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmHeaderCollectionReusableView.h; sourceTree = "<group>"; };
+		1FFF623C1CC53D7F0094D6E1 /* ConfirmHeaderCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfirmHeaderCollectionReusableView.m; sourceTree = "<group>"; };
+		1FFF623D1CC53D7F0094D6E1 /* ConfirmMoneyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmMoneyCollectionViewCell.h; sourceTree = "<group>"; };
+		1FFF623E1CC53D7F0094D6E1 /* ConfirmMoneyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfirmMoneyCollectionViewCell.m; sourceTree = "<group>"; };
+		1FFF623F1CC53D7F0094D6E1 /* ConfirmShippingCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmShippingCollectionViewCell.h; sourceTree = "<group>"; };
+		1FFF62401CC53D7F0094D6E1 /* ConfirmShippingCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfirmShippingCollectionViewCell.m; sourceTree = "<group>"; };
+		1FFF62481CC5E69D0094D6E1 /* AlertsDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertsDetailsViewController.h; sourceTree = "<group>"; };
+		1FFF62491CC5E69D0094D6E1 /* AlertsDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertsDetailsViewController.m; sourceTree = "<group>"; };
+		1FFF624A1CC5E69D0094D6E1 /* AlertsListCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertsListCollectionViewCell.h; sourceTree = "<group>"; };
+		1FFF624B1CC5E69D0094D6E1 /* AlertsListCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertsListCollectionViewCell.m; sourceTree = "<group>"; };
+		1FFF624C1CC5E69D0094D6E1 /* AlertsListCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertsListCollectionViewController.h; sourceTree = "<group>"; };
+		1FFF624D1CC5E69D0094D6E1 /* AlertsListCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertsListCollectionViewController.m; sourceTree = "<group>"; };
+		1FFF624E1CC5E69D0094D6E1 /* AlertsListFooterCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertsListFooterCollectionReusableView.h; sourceTree = "<group>"; };
+		1FFF624F1CC5E69D0094D6E1 /* AlertsListFooterCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertsListFooterCollectionReusableView.m; sourceTree = "<group>"; };
+		1FFF62571CC5FB100094D6E1 /* PaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentViewController.h; sourceTree = "<group>"; };
+		1FFF62581CC5FB100094D6E1 /* PaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentViewController.m; sourceTree = "<group>"; };
+		1FFF625A1CC63DCB0094D6E1 /* cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cover.jpg; path = images/cover.jpg; sourceTree = SOURCE_ROOT; };
+		1FFF625B1CC63DCB0094D6E1 /* loading.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = loading.jpg; path = images/loading.jpg; sourceTree = SOURCE_ROOT; };
+		1FFF625C1CC63DCB0094D6E1 /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = share.png; path = images/share.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F1F231D1CBFAAD0003EA484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1F236D1CBFBA17003EA484 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1F23361CBFAAD2003EA484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1F23411CBFAAD2003EA484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F1F23171CBFAAD0003EA484 = {
+			isa = PBXGroup;
+			children = (
+				1F1F23221CBFAAD2003EA484 /* Zoncon Ecommerce Morningmist */,
+				1F1F233C1CBFAAD2003EA484 /* Zoncon Ecommerce MorningmistTests */,
+				1F1F23471CBFAAD2003EA484 /* Zoncon Ecommerce MorningmistUITests */,
+				1F1F23211CBFAAD0003EA484 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F1F23211CBFAAD0003EA484 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F1F23201CBFAAD0003EA484 /* Zoncon Ecommerce Morningmist.app */,
+				1F1F23391CBFAAD2003EA484 /* Zoncon Ecommerce MorningmistTests.xctest */,
+				1F1F23441CBFAAD2003EA484 /* Zoncon Ecommerce MorningmistUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F1F23221CBFAAD2003EA484 /* Zoncon Ecommerce Morningmist */ = {
+			isa = PBXGroup;
+			children = (
+				1FFF62471CC5E66E0094D6E1 /* alerts */,
+				1FFF621C1CC4FA9B0094D6E1 /* payment */,
+				1FFF620F1CC4E9E10094D6E1 /* about */,
+				1FFF61FC1CC4C0270094D6E1 /* terms */,
+				1F4EC23C1CC111BE006BD439 /* account */,
+				1F4EC22F1CC11107006BD439 /* menu */,
+				1F4EC22E1CC110E5006BD439 /* loading */,
+				1F4EC22D1CC10F81006BD439 /* shop */,
+				1F4EC22C1CC10F6C006BD439 /* db */,
+				1F1F236E1CBFBA28003EA484 /* Frameworks */,
+				1F1F23621CBFB80F003EA484 /* images */,
+				1F1F23561CBFB15A003EA484 /* globals.h */,
+				1F4EC24C1CC11637006BD439 /* ImageScreenViewController.h */,
+				1F4EC24D1CC11637006BD439 /* ImageScreenViewController.m */,
+				1F4EC2201CC0D210006BD439 /* NavigationViewController.h */,
+				1F4EC2211CC0D210006BD439 /* NavigationViewController.m */,
+				1F1F235D1CBFB70A003EA484 /* Main.storyboard */,
+				1F1F232F1CBFAAD2003EA484 /* Assets.xcassets */,
+				1F1F23311CBFAAD2003EA484 /* LaunchScreen.storyboard */,
+				1F1F23341CBFAAD2003EA484 /* Info.plist */,
+				1F1F23231CBFAAD2003EA484 /* Supporting Files */,
+			);
+			path = "Zoncon Ecommerce Morningmist";
+			sourceTree = "<group>";
+		};
+		1F1F23231CBFAAD2003EA484 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F1F23241CBFAAD2003EA484 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F1F233C1CBFAAD2003EA484 /* Zoncon Ecommerce MorningmistTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F1F233D1CBFAAD2003EA484 /* Zoncon_Ecommerce_MorningmistTests.m */,
+				1F1F233F1CBFAAD2003EA484 /* Info.plist */,
+			);
+			path = "Zoncon Ecommerce MorningmistTests";
+			sourceTree = "<group>";
+		};
+		1F1F23471CBFAAD2003EA484 /* Zoncon Ecommerce MorningmistUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F1F23481CBFAAD2003EA484 /* Zoncon_Ecommerce_MorningmistUITests.m */,
+				1F1F234A1CBFAAD2003EA484 /* Info.plist */,
+			);
+			path = "Zoncon Ecommerce MorningmistUITests";
+			sourceTree = "<group>";
+		};
+		1F1F23621CBFB80F003EA484 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1FFF625A1CC63DCB0094D6E1 /* cover.jpg */,
+				1FFF625B1CC63DCB0094D6E1 /* loading.jpg */,
+				1FFF625C1CC63DCB0094D6E1 /* share.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		1F1F236E1CBFBA28003EA484 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F1F236C1CBFBA17003EA484 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F4EC22C1CC10F6C006BD439 /* db */ = {
+			isa = PBXGroup;
+			children = (
+				1F1F235A1CBFB1DA003EA484 /* DbHelper.h */,
+				1F1F235B1CBFB1DA003EA484 /* DbHelper.m */,
+			);
+			name = db;
+			sourceTree = "<group>";
+		};
+		1F4EC22D1CC10F81006BD439 /* shop */ = {
+			isa = PBXGroup;
+			children = (
+				1F4EC2231CC0D607006BD439 /* ShopCategoriesViewCell.h */,
+				1F4EC2241CC0D607006BD439 /* ShopCategoriesViewCell.m */,
+				1F4EC2251CC0D607006BD439 /* ShopCategoriesViewController.h */,
+				1F4EC2261CC0D607006BD439 /* ShopCategoriesViewController.m */,
+				1F4EC2491CC11532006BD439 /* ShopItemDetailsViewController.h */,
+				1F4EC24A1CC11532006BD439 /* ShopItemDetailsViewController.m */,
+				1FFF61ED1CC2B2210094D6E1 /* ShopItemsListCollectionViewCell.h */,
+				1FFF61EE1CC2B2210094D6E1 /* ShopItemsListCollectionViewCell.m */,
+				1FFF61EF1CC2B2210094D6E1 /* ShopItemsListCollectionViewController.h */,
+				1FFF61F01CC2B2210094D6E1 /* ShopItemsListCollectionViewController.m */,
+				1FFF61F11CC2B2210094D6E1 /* ShopItemsListFooterCollectionReusableView.h */,
+				1FFF61F21CC2B2210094D6E1 /* ShopItemsListFooterCollectionReusableView.m */,
+			);
+			name = shop;
+			sourceTree = "<group>";
+		};
+		1F4EC22E1CC110E5006BD439 /* loading */ = {
+			isa = PBXGroup;
+			children = (
+				1F1F23261CBFAAD2003EA484 /* AppDelegate.h */,
+				1F1F23271CBFAAD2003EA484 /* AppDelegate.m */,
+				1F1F23571CBFB1A9003EA484 /* SyncViewController.h */,
+				1F1F23581CBFB1A9003EA484 /* SyncViewController.m */,
+			);
+			name = loading;
+			sourceTree = "<group>";
+		};
+		1F4EC22F1CC11107006BD439 /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				1F1F236F1CBFC7A8003EA484 /* SelectLocationController.h */,
+				1F1F23701CBFC7A8003EA484 /* SelectLocationController.m */,
+				1F4EC2291CC1044D006BD439 /* MenuTableViewController.h */,
+				1F4EC22A1CC1044D006BD439 /* MenuTableViewController.m */,
+			);
+			name = menu;
+			sourceTree = "<group>";
+		};
+		1F4EC23C1CC111BE006BD439 /* account */ = {
+			isa = PBXGroup;
+			children = (
+				1FFF62551CC5F78B0094D6E1 /* orders */,
+				1FFF62541CC5F76D0094D6E1 /* login */,
+			);
+			name = account;
+			sourceTree = "<group>";
+		};
+		1FFF61FC1CC4C0270094D6E1 /* terms */ = {
+			isa = PBXGroup;
+			children = (
+				1FFF62061CC4C90D0094D6E1 /* PoliciesDetailsViewController.h */,
+				1FFF62071CC4C90D0094D6E1 /* PoliciesDetailsViewController.m */,
+				1FFF62081CC4C90D0094D6E1 /* PoliciesListCollectionViewCell.h */,
+				1FFF62091CC4C90D0094D6E1 /* PoliciesListCollectionViewCell.m */,
+				1FFF620A1CC4C90D0094D6E1 /* PoliciesListCollectionViewController.h */,
+				1FFF620B1CC4C90D0094D6E1 /* PoliciesListCollectionViewController.m */,
+			);
+			name = terms;
+			sourceTree = "<group>";
+		};
+		1FFF620F1CC4E9E10094D6E1 /* about */ = {
+			isa = PBXGroup;
+			children = (
+				1FFF62101CC4EA370094D6E1 /* AboutDetailsViewController.h */,
+				1FFF62111CC4EA370094D6E1 /* AboutDetailsViewController.m */,
+				1FFF62121CC4EA370094D6E1 /* AboutListCollectionViewCell.h */,
+				1FFF62131CC4EA370094D6E1 /* AboutListCollectionViewCell.m */,
+				1FFF62141CC4EA370094D6E1 /* AboutListCollectionViewController.h */,
+				1FFF62151CC4EA370094D6E1 /* AboutListCollectionViewController.m */,
+				1FFF62161CC4EA370094D6E1 /* AboutListFooterCollectionReusableView.h */,
+				1FFF62171CC4EA370094D6E1 /* AboutListFooterCollectionReusableView.m */,
+			);
+			name = about;
+			sourceTree = "<group>";
+		};
+		1FFF621C1CC4FA9B0094D6E1 /* payment */ = {
+			isa = PBXGroup;
+			children = (
+				1F1F23681CBFB951003EA484 /* TaxRecord.h */,
+				1F1F23691CBFB951003EA484 /* TaxRecord.m */,
+				1F1F23661CBFB950003EA484 /* CouponRecord.h */,
+				1F1F23671CBFB951003EA484 /* CouponRecord.m */,
+				1FFF622F1CC50E720094D6E1 /* cart */,
+				1FFF62301CC50F8C0094D6E1 /* shipping */,
+				1FFF62341CC53D3D0094D6E1 /* confirm */,
+				1FFF62561CC5FADD0094D6E1 /* paymentgateway */,
+			);
+			name = payment;
+			sourceTree = "<group>";
+		};
+		1FFF622F1CC50E720094D6E1 /* cart */ = {
+			isa = PBXGroup;
+			children = (
+				1FFF621D1CC4FAB50094D6E1 /* CartCollectionViewCell.h */,
+				1FFF621E1CC4FAB50094D6E1 /* CartCollectionViewCell.m */,
+				1FFF621F1CC4FAB50094D6E1 /* CartCollectionViewController.h */,
+				1FFF62201CC4FAB50094D6E1 /* CartCollectionViewController.m */,
+				1FFF62211CC4FAB50094D6E1 /* CartCouponCollectionViewCell.h */,
+				1FFF62221CC4FAB50094D6E1 /* CartCouponCollectionViewCell.m */,
+				1FFF62231CC4FAB50094D6E1 /* CartFooterCollectionReusableView.h */,
+				1FFF62241CC4FAB50094D6E1 /* CartFooterCollectionReusableView.m */,
+				1FFF62251CC4FAB50094D6E1 /* CartHeaderCollectionReusableView.h */,
+				1FFF62261CC4FAB50094D6E1 /* CartHeaderCollectionReusableView.m */,
+				1FFF62271CC4FAB50094D6E1 /* CartMoneyCollectionViewCell.h */,
+				1FFF62281CC4FAB50094D6E1 /* CartMoneyCollectionViewCell.m */,
+			);
+			name = cart;
+			sourceTree = "<group>";
+		};
+		1FFF62301CC50F8C0094D6E1 /* shipping */ = {
+			isa = PBXGroup;
+			children = (
+				1FFF62311CC50FCA0094D6E1 /* CheckoutTableViewController.h */,
+				1FFF62321CC50FCA0094D6E1 /* CheckoutTableViewController.m */,
+			);
+			name = shipping;
+			sourceTree = "<group>";
+		};
+		1FFF62341CC53D3D0094D6E1 /* confirm */ = {
+			isa = PBXGroup;
+			children = (
+				1FFF62351CC53D7F0094D6E1 /* ConfirmCollectionViewCell.h */,
+				1FFF62361CC53D7F0094D6E1 /* ConfirmCollectionViewCell.m */,
+				1FFF62371CC53D7F0094D6E1 /* ConfirmCollectionViewController.h */,
+				1FFF62381CC53D7F0094D6E1 /* ConfirmCollectionViewController.m */,
+				1FFF62391CC53D7F0094D6E1 /* ConfirmFooterCollectionReusableView.h */,
+				1FFF623A1CC53D7F0094D6E1 /* ConfirmFooterCollectionReusableView.m */,
+				1FFF623B1CC53D7F0094D6E1 /* ConfirmHeaderCollectionReusableView.h */,
+				1FFF623C1CC53D7F0094D6E1 /* ConfirmHeaderCollectionReusableView.m */,
+				1FFF623D1CC53D7F0094D6E1 /* ConfirmMoneyCollectionViewCell.h */,
+				1FFF623E1CC53D7F0094D6E1 /* ConfirmMoneyCollectionViewCell.m */,
+				1FFF623F1CC53D7F0094D6E1 /* ConfirmShippingCollectionViewCell.h */,
+				1FFF62401CC53D7F0094D6E1 /* ConfirmShippingCollectionViewCell.m */,
+			);
+			name = confirm;
+			sourceTree = "<group>";
+		};
+		1FFF62471CC5E66E0094D6E1 /* alerts */ = {
+			isa = PBXGroup;
+			children = (
+				1FFF62481CC5E69D0094D6E1 /* AlertsDetailsViewController.h */,
+				1FFF62491CC5E69D0094D6E1 /* AlertsDetailsViewController.m */,
+				1FFF624A1CC5E69D0094D6E1 /* AlertsListCollectionViewCell.h */,
+				1FFF624B1CC5E69D0094D6E1 /* AlertsListCollectionViewCell.m */,
+				1FFF624C1CC5E69D0094D6E1 /* AlertsListCollectionViewController.h */,
+				1FFF624D1CC5E69D0094D6E1 /* AlertsListCollectionViewController.m */,
+				1FFF624E1CC5E69D0094D6E1 /* AlertsListFooterCollectionReusableView.h */,
+				1FFF624F1CC5E69D0094D6E1 /* AlertsListFooterCollectionReusableView.m */,
+			);
+			name = alerts;
+			sourceTree = "<group>";
+		};
+		1FFF62541CC5F76D0094D6E1 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				1F4EC24F1CC2699A006BD439 /* CreateAccountTableViewController.h */,
+				1F4EC2501CC2699A006BD439 /* CreateAccountTableViewController.m */,
+				1F4EC2301CC111B4006BD439 /* DetectLoginTableViewController.h */,
+				1F4EC2311CC111B4006BD439 /* DetectLoginTableViewController.m */,
+				1F4EC2321CC111B4006BD439 /* ForgotPasswordTableViewController.h */,
+				1F4EC2331CC111B4006BD439 /* ForgotPasswordTableViewController.m */,
+				1F4EC2361CC111B4006BD439 /* ResetTableViewController.h */,
+				1F4EC2371CC111B4006BD439 /* ResetTableViewController.m */,
+				1F4EC2341CC111B4006BD439 /* LoginTableViewController.h */,
+				1F4EC2351CC111B4006BD439 /* LoginTableViewController.m */,
+			);
+			name = login;
+			sourceTree = "<group>";
+		};
+		1FFF62551CC5F78B0094D6E1 /* orders */ = {
+			isa = PBXGroup;
+			children = (
+				1F4EC23D1CC113BC006BD439 /* OrderDetailsViewController.h */,
+				1F4EC23E1CC113BC006BD439 /* OrderDetailsViewController.m */,
+				1F4EC23F1CC113BC006BD439 /* OrdersListCollectionViewCell.h */,
+				1F4EC2401CC113BC006BD439 /* OrdersListCollectionViewCell.m */,
+				1F4EC2411CC113BC006BD439 /* OrdersListCollectionViewController.h */,
+				1F4EC2421CC113BC006BD439 /* OrdersListCollectionViewController.m */,
+				1F4EC2431CC113BC006BD439 /* OrdersListFooterCollectionReusableView.h */,
+				1F4EC2441CC113BC006BD439 /* OrdersListFooterCollectionReusableView.m */,
+			);
+			name = orders;
+			sourceTree = "<group>";
+		};
+		1FFF62561CC5FADD0094D6E1 /* paymentgateway */ = {
+			isa = PBXGroup;
+			children = (
+				1FFF62571CC5FB100094D6E1 /* PaymentViewController.h */,
+				1FFF62581CC5FB100094D6E1 /* PaymentViewController.m */,
+			);
+			name = paymentgateway;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F1F231F1CBFAAD0003EA484 /* Zoncon Ecommerce Morningmist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F1F234D1CBFAAD2003EA484 /* Build configuration list for PBXNativeTarget "Zoncon Ecommerce Morningmist" */;
+			buildPhases = (
+				1F1F231C1CBFAAD0003EA484 /* Sources */,
+				1F1F231D1CBFAAD0003EA484 /* Frameworks */,
+				1F1F231E1CBFAAD0003EA484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zoncon Ecommerce Morningmist";
+			productName = "Zoncon Ecommerce Morningmist";
+			productReference = 1F1F23201CBFAAD0003EA484 /* Zoncon Ecommerce Morningmist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F1F23381CBFAAD2003EA484 /* Zoncon Ecommerce MorningmistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F1F23501CBFAAD2003EA484 /* Build configuration list for PBXNativeTarget "Zoncon Ecommerce MorningmistTests" */;
+			buildPhases = (
+				1F1F23351CBFAAD2003EA484 /* Sources */,
+				1F1F23361CBFAAD2003EA484 /* Frameworks */,
+				1F1F23371CBFAAD2003EA484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F1F233B1CBFAAD2003EA484 /* PBXTargetDependency */,
+			);
+			name = "Zoncon Ecommerce MorningmistTests";
+			productName = "Zoncon Ecommerce MorningmistTests";
+			productReference = 1F1F23391CBFAAD2003EA484 /* Zoncon Ecommerce MorningmistTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F1F23431CBFAAD2003EA484 /* Zoncon Ecommerce MorningmistUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F1F23531CBFAAD2003EA484 /* Build configuration list for PBXNativeTarget "Zoncon Ecommerce MorningmistUITests" */;
+			buildPhases = (
+				1F1F23401CBFAAD2003EA484 /* Sources */,
+				1F1F23411CBFAAD2003EA484 /* Frameworks */,
+				1F1F23421CBFAAD2003EA484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F1F23461CBFAAD2003EA484 /* PBXTargetDependency */,
+			);
+			name = "Zoncon Ecommerce MorningmistUITests";
+			productName = "Zoncon Ecommerce MorningmistUITests";
+			productReference = 1F1F23441CBFAAD2003EA484 /* Zoncon Ecommerce MorningmistUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F1F23181CBFAAD0003EA484 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "MeGo Technologies";
+				TargetAttributes = {
+					1F1F231F1CBFAAD0003EA484 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					1F1F23381CBFAAD2003EA484 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 1F1F231F1CBFAAD0003EA484;
+					};
+					1F1F23431CBFAAD2003EA484 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 1F1F231F1CBFAAD0003EA484;
+					};
+				};
+			};
+			buildConfigurationList = 1F1F231B1CBFAAD0003EA484 /* Build configuration list for PBXProject "Zoncon Ecommerce Morningmist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F1F23171CBFAAD0003EA484;
+			productRefGroup = 1F1F23211CBFAAD0003EA484 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F1F231F1CBFAAD0003EA484 /* Zoncon Ecommerce Morningmist */,
+				1F1F23381CBFAAD2003EA484 /* Zoncon Ecommerce MorningmistTests */,
+				1F1F23431CBFAAD2003EA484 /* Zoncon Ecommerce MorningmistUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F1F231E1CBFAAD0003EA484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FFF625E1CC63DCB0094D6E1 /* loading.jpg in Resources */,
+				1FFF625F1CC63DCB0094D6E1 /* share.png in Resources */,
+				1F1F23331CBFAAD2003EA484 /* LaunchScreen.storyboard in Resources */,
+				1F1F23301CBFAAD2003EA484 /* Assets.xcassets in Resources */,
+				1F1F235F1CBFB70A003EA484 /* Main.storyboard in Resources */,
+				1FFF625D1CC63DCB0094D6E1 /* cover.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1F23371CBFAAD2003EA484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1F23421CBFAAD2003EA484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F1F231C1CBFAAD0003EA484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FFF621A1CC4EA370094D6E1 /* AboutListCollectionViewController.m in Sources */,
+				1FFF62451CC53D7F0094D6E1 /* ConfirmMoneyCollectionViewCell.m in Sources */,
+				1FFF620E1CC4C90D0094D6E1 /* PoliciesListCollectionViewController.m in Sources */,
+				1F4EC2281CC0D607006BD439 /* ShopCategoriesViewController.m in Sources */,
+				1F4EC23A1CC111B4006BD439 /* LoginTableViewController.m in Sources */,
+				1F4EC2271CC0D607006BD439 /* ShopCategoriesViewCell.m in Sources */,
+				1FFF62411CC53D7F0094D6E1 /* ConfirmCollectionViewCell.m in Sources */,
+				1FFF61F41CC2B2210094D6E1 /* ShopItemsListCollectionViewController.m in Sources */,
+				1FFF620C1CC4C90D0094D6E1 /* PoliciesDetailsViewController.m in Sources */,
+				1F4EC24B1CC11532006BD439 /* ShopItemDetailsViewController.m in Sources */,
+				1FFF621B1CC4EA370094D6E1 /* AboutListFooterCollectionReusableView.m in Sources */,
+				1FFF622A1CC4FAB50094D6E1 /* CartCollectionViewController.m in Sources */,
+				1FFF622C1CC4FAB50094D6E1 /* CartFooterCollectionReusableView.m in Sources */,
+				1F1F236A1CBFB951003EA484 /* CouponRecord.m in Sources */,
+				1FFF62331CC50FCA0094D6E1 /* CheckoutTableViewController.m in Sources */,
+				1FFF62181CC4EA370094D6E1 /* AboutDetailsViewController.m in Sources */,
+				1FFF62431CC53D7F0094D6E1 /* ConfirmFooterCollectionReusableView.m in Sources */,
+				1FFF62291CC4FAB50094D6E1 /* CartCollectionViewCell.m in Sources */,
+				1F4EC22B1CC1044D006BD439 /* MenuTableViewController.m in Sources */,
+				1F4EC2221CC0D210006BD439 /* NavigationViewController.m in Sources */,
+				1FFF62461CC53D7F0094D6E1 /* ConfirmShippingCollectionViewCell.m in Sources */,
+				1F1F23711CBFC7A8003EA484 /* SelectLocationController.m in Sources */,
+				1FFF62511CC5E69D0094D6E1 /* AlertsListCollectionViewCell.m in Sources */,
+				1F4EC2381CC111B4006BD439 /* DetectLoginTableViewController.m in Sources */,
+				1FFF61F31CC2B2210094D6E1 /* ShopItemsListCollectionViewCell.m in Sources */,
+				1FFF622D1CC4FAB50094D6E1 /* CartHeaderCollectionReusableView.m in Sources */,
+				1F1F236B1CBFB951003EA484 /* TaxRecord.m in Sources */,
+				1F1F23281CBFAAD2003EA484 /* AppDelegate.m in Sources */,
+				1F4EC2511CC2699A006BD439 /* CreateAccountTableViewController.m in Sources */,
+				1FFF622B1CC4FAB50094D6E1 /* CartCouponCollectionViewCell.m in Sources */,
+				1F4EC2481CC113BC006BD439 /* OrdersListFooterCollectionReusableView.m in Sources */,
+				1F4EC2461CC113BC006BD439 /* OrdersListCollectionViewCell.m in Sources */,
+				1F4EC24E1CC11637006BD439 /* ImageScreenViewController.m in Sources */,
+				1F1F23251CBFAAD2003EA484 /* main.m in Sources */,
+				1F4EC2391CC111B4006BD439 /* ForgotPasswordTableViewController.m in Sources */,
+				1F1F235C1CBFB1DA003EA484 /* DbHelper.m in Sources */,
+				1F1F23591CBFB1A9003EA484 /* SyncViewController.m in Sources */,
+				1FFF62501CC5E69D0094D6E1 /* AlertsDetailsViewController.m in Sources */,
+				1F4EC2471CC113BC006BD439 /* OrdersListCollectionViewController.m in Sources */,
+				1F4EC2451CC113BC006BD439 /* OrderDetailsViewController.m in Sources */,
+				1FFF61F51CC2B2210094D6E1 /* ShopItemsListFooterCollectionReusableView.m in Sources */,
+				1FFF62521CC5E69D0094D6E1 /* AlertsListCollectionViewController.m in Sources */,
+				1FFF62421CC53D7F0094D6E1 /* ConfirmCollectionViewController.m in Sources */,
+				1FFF62591CC5FB100094D6E1 /* PaymentViewController.m in Sources */,
+				1FFF622E1CC4FAB50094D6E1 /* CartMoneyCollectionViewCell.m in Sources */,
+				1F4EC23B1CC111B4006BD439 /* ResetTableViewController.m in Sources */,
+				1FFF62441CC53D7F0094D6E1 /* ConfirmHeaderCollectionReusableView.m in Sources */,
+				1FFF62531CC5E69D0094D6E1 /* AlertsListFooterCollectionReusableView.m in Sources */,
+				1FFF62191CC4EA370094D6E1 /* AboutListCollectionViewCell.m in Sources */,
+				1FFF620D1CC4C90D0094D6E1 /* PoliciesListCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1F23351CBFAAD2003EA484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1F233E1CBFAAD2003EA484 /* Zoncon_Ecommerce_MorningmistTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F1F23401CBFAAD2003EA484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1F23491CBFAAD2003EA484 /* Zoncon_Ecommerce_MorningmistUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F1F233B1CBFAAD2003EA484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F1F231F1CBFAAD0003EA484 /* Zoncon Ecommerce Morningmist */;
+			targetProxy = 1F1F233A1CBFAAD2003EA484 /* PBXContainerItemProxy */;
+		};
+		1F1F23461CBFAAD2003EA484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F1F231F1CBFAAD0003EA484 /* Zoncon Ecommerce Morningmist */;
+			targetProxy = 1F1F23451CBFAAD2003EA484 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F1F23311CBFAAD2003EA484 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F1F23321CBFAAD2003EA484 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1F1F235D1CBFB70A003EA484 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F1F235E1CBFB70A003EA484 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F1F234B1CBFAAD2003EA484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F1F234C1CBFAAD2003EA484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F1F234E1CBFAAD2003EA484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Zoncon Ecommerce Morningmist/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.megotechnologies.Zoncon-Ecommerce-Morningmist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F1F234F1CBFAAD2003EA484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Zoncon Ecommerce Morningmist/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.megotechnologies.Zoncon-Ecommerce-Morningmist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F1F23511CBFAAD2003EA484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Zoncon Ecommerce MorningmistTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.megotechnologies.Zoncon-Ecommerce-MorningmistTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zoncon Ecommerce Morningmist.app/Zoncon Ecommerce Morningmist";
+			};
+			name = Debug;
+		};
+		1F1F23521CBFAAD2003EA484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Zoncon Ecommerce MorningmistTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.megotechnologies.Zoncon-Ecommerce-MorningmistTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zoncon Ecommerce Morningmist.app/Zoncon Ecommerce Morningmist";
+			};
+			name = Release;
+		};
+		1F1F23541CBFAAD2003EA484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Zoncon Ecommerce MorningmistUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.megotechnologies.Zoncon-Ecommerce-MorningmistUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Zoncon Ecommerce Morningmist";
+			};
+			name = Debug;
+		};
+		1F1F23551CBFAAD2003EA484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Zoncon Ecommerce MorningmistUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.megotechnologies.Zoncon-Ecommerce-MorningmistUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Zoncon Ecommerce Morningmist";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F1F231B1CBFAAD0003EA484 /* Build configuration list for PBXProject "Zoncon Ecommerce Morningmist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F1F234B1CBFAAD2003EA484 /* Debug */,
+				1F1F234C1CBFAAD2003EA484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F1F234D1CBFAAD2003EA484 /* Build configuration list for PBXNativeTarget "Zoncon Ecommerce Morningmist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F1F234E1CBFAAD2003EA484 /* Debug */,
+				1F1F234F1CBFAAD2003EA484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F1F23501CBFAAD2003EA484 /* Build configuration list for PBXNativeTarget "Zoncon Ecommerce MorningmistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F1F23511CBFAAD2003EA484 /* Debug */,
+				1F1F23521CBFAAD2003EA484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F1F23531CBFAAD2003EA484 /* Build configuration list for PBXNativeTarget "Zoncon Ecommerce MorningmistUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F1F23541CBFAAD2003EA484 /* Debug */,
+				1F1F23551CBFAAD2003EA484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F1F23181CBFAAD0003EA484 /* Project object */;
+}
