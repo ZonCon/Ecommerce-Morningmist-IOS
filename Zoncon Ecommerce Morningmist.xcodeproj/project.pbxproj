@@ -16,8 +16,6 @@
 		1F1F23591CBFB1A9003EA484 /* SyncViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1F23581CBFB1A9003EA484 /* SyncViewController.m */; };
 		1F1F235C1CBFB1DA003EA484 /* DbHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1F235B1CBFB1DA003EA484 /* DbHelper.m */; };
 		1F1F235F1CBFB70A003EA484 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F1F235D1CBFB70A003EA484 /* Main.storyboard */; };
-		1F1F236A1CBFB951003EA484 /* CouponRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1F23671CBFB951003EA484 /* CouponRecord.m */; };
-		1F1F236B1CBFB951003EA484 /* TaxRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1F23691CBFB951003EA484 /* TaxRecord.m */; };
 		1F1F236D1CBFBA17003EA484 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1F236C1CBFBA17003EA484 /* libsqlite3.tbd */; };
 		1F1F23711CBFC7A8003EA484 /* SelectLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1F23701CBFC7A8003EA484 /* SelectLocationController.m */; };
 		1F4EC2221CC0D210006BD439 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EC2211CC0D210006BD439 /* NavigationViewController.m */; };
@@ -35,6 +33,8 @@
 		1F4EC24B1CC11532006BD439 /* ShopItemDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EC24A1CC11532006BD439 /* ShopItemDetailsViewController.m */; };
 		1F4EC24E1CC11637006BD439 /* ImageScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EC24D1CC11637006BD439 /* ImageScreenViewController.m */; };
 		1F4EC2511CC2699A006BD439 /* CreateAccountTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4EC2501CC2699A006BD439 /* CreateAccountTableViewController.m */; };
+		1F77C9221CC808600009F129 /* TaxRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F77C9211CC808600009F129 /* TaxRecord.m */; };
+		1F77C9251CC808830009F129 /* CouponRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F77C9241CC808830009F129 /* CouponRecord.m */; };
 		1FFF61F31CC2B2210094D6E1 /* ShopItemsListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF61EE1CC2B2210094D6E1 /* ShopItemsListCollectionViewCell.m */; };
 		1FFF61F41CC2B2210094D6E1 /* ShopItemsListCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF61F01CC2B2210094D6E1 /* ShopItemsListCollectionViewController.m */; };
 		1FFF61F51CC2B2210094D6E1 /* ShopItemsListFooterCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF61F21CC2B2210094D6E1 /* ShopItemsListFooterCollectionReusableView.m */; };
@@ -106,10 +106,6 @@
 		1F1F235A1CBFB1DA003EA484 /* DbHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DbHelper.h; sourceTree = "<group>"; };
 		1F1F235B1CBFB1DA003EA484 /* DbHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DbHelper.m; sourceTree = "<group>"; };
 		1F1F235E1CBFB70A003EA484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1F1F23661CBFB950003EA484 /* CouponRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CouponRecord.h; path = "../../ZonconPngDiamonds/Abs Fitness Express/CouponRecord.h"; sourceTree = "<group>"; };
-		1F1F23671CBFB951003EA484 /* CouponRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CouponRecord.m; path = "../../ZonconPngDiamonds/Abs Fitness Express/CouponRecord.m"; sourceTree = "<group>"; };
-		1F1F23681CBFB951003EA484 /* TaxRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TaxRecord.h; path = "../../ZonconPngDiamonds/Abs Fitness Express/TaxRecord.h"; sourceTree = "<group>"; };
-		1F1F23691CBFB951003EA484 /* TaxRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TaxRecord.m; path = "../../ZonconPngDiamonds/Abs Fitness Express/TaxRecord.m"; sourceTree = "<group>"; };
 		1F1F236C1CBFBA17003EA484 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		1F1F236F1CBFC7A8003EA484 /* SelectLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectLocationController.h; sourceTree = "<group>"; };
 		1F1F23701CBFC7A8003EA484 /* SelectLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectLocationController.m; sourceTree = "<group>"; };
@@ -143,6 +139,10 @@
 		1F4EC24D1CC11637006BD439 /* ImageScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageScreenViewController.m; sourceTree = "<group>"; };
 		1F4EC24F1CC2699A006BD439 /* CreateAccountTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateAccountTableViewController.h; sourceTree = "<group>"; };
 		1F4EC2501CC2699A006BD439 /* CreateAccountTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAccountTableViewController.m; sourceTree = "<group>"; };
+		1F77C9201CC808600009F129 /* TaxRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaxRecord.h; sourceTree = "<group>"; };
+		1F77C9211CC808600009F129 /* TaxRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaxRecord.m; sourceTree = "<group>"; };
+		1F77C9231CC808830009F129 /* CouponRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponRecord.h; sourceTree = "<group>"; };
+		1F77C9241CC808830009F129 /* CouponRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponRecord.m; sourceTree = "<group>"; };
 		1FFF61ED1CC2B2210094D6E1 /* ShopItemsListCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopItemsListCollectionViewCell.h; sourceTree = "<group>"; };
 		1FFF61EE1CC2B2210094D6E1 /* ShopItemsListCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopItemsListCollectionViewCell.m; sourceTree = "<group>"; };
 		1FFF61EF1CC2B2210094D6E1 /* ShopItemsListCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopItemsListCollectionViewController.h; sourceTree = "<group>"; };
@@ -414,10 +414,10 @@
 		1FFF621C1CC4FA9B0094D6E1 /* payment */ = {
 			isa = PBXGroup;
 			children = (
-				1F1F23681CBFB951003EA484 /* TaxRecord.h */,
-				1F1F23691CBFB951003EA484 /* TaxRecord.m */,
-				1F1F23661CBFB950003EA484 /* CouponRecord.h */,
-				1F1F23671CBFB951003EA484 /* CouponRecord.m */,
+				1F77C9201CC808600009F129 /* TaxRecord.h */,
+				1F77C9211CC808600009F129 /* TaxRecord.m */,
+				1F77C9231CC808830009F129 /* CouponRecord.h */,
+				1F77C9241CC808830009F129 /* CouponRecord.m */,
 				1FFF622F1CC50E720094D6E1 /* cart */,
 				1FFF62301CC50F8C0094D6E1 /* shipping */,
 				1FFF62341CC53D3D0094D6E1 /* confirm */,
@@ -666,6 +666,7 @@
 				1FFF621A1CC4EA370094D6E1 /* AboutListCollectionViewController.m in Sources */,
 				1FFF62451CC53D7F0094D6E1 /* ConfirmMoneyCollectionViewCell.m in Sources */,
 				1FFF620E1CC4C90D0094D6E1 /* PoliciesListCollectionViewController.m in Sources */,
+				1F77C9251CC808830009F129 /* CouponRecord.m in Sources */,
 				1F4EC2281CC0D607006BD439 /* ShopCategoriesViewController.m in Sources */,
 				1F4EC23A1CC111B4006BD439 /* LoginTableViewController.m in Sources */,
 				1F4EC2271CC0D607006BD439 /* ShopCategoriesViewCell.m in Sources */,
@@ -676,7 +677,6 @@
 				1FFF621B1CC4EA370094D6E1 /* AboutListFooterCollectionReusableView.m in Sources */,
 				1FFF622A1CC4FAB50094D6E1 /* CartCollectionViewController.m in Sources */,
 				1FFF622C1CC4FAB50094D6E1 /* CartFooterCollectionReusableView.m in Sources */,
-				1F1F236A1CBFB951003EA484 /* CouponRecord.m in Sources */,
 				1FFF62331CC50FCA0094D6E1 /* CheckoutTableViewController.m in Sources */,
 				1FFF62181CC4EA370094D6E1 /* AboutDetailsViewController.m in Sources */,
 				1FFF62431CC53D7F0094D6E1 /* ConfirmFooterCollectionReusableView.m in Sources */,
@@ -689,7 +689,6 @@
 				1F4EC2381CC111B4006BD439 /* DetectLoginTableViewController.m in Sources */,
 				1FFF61F31CC2B2210094D6E1 /* ShopItemsListCollectionViewCell.m in Sources */,
 				1FFF622D1CC4FAB50094D6E1 /* CartHeaderCollectionReusableView.m in Sources */,
-				1F1F236B1CBFB951003EA484 /* TaxRecord.m in Sources */,
 				1F1F23281CBFAAD2003EA484 /* AppDelegate.m in Sources */,
 				1F4EC2511CC2699A006BD439 /* CreateAccountTableViewController.m in Sources */,
 				1FFF622B1CC4FAB50094D6E1 /* CartCouponCollectionViewCell.m in Sources */,
@@ -702,6 +701,7 @@
 				1F1F23591CBFB1A9003EA484 /* SyncViewController.m in Sources */,
 				1FFF62501CC5E69D0094D6E1 /* AlertsDetailsViewController.m in Sources */,
 				1F4EC2471CC113BC006BD439 /* OrdersListCollectionViewController.m in Sources */,
+				1F77C9221CC808600009F129 /* TaxRecord.m in Sources */,
 				1F4EC2451CC113BC006BD439 /* OrderDetailsViewController.m in Sources */,
 				1FFF61F51CC2B2210094D6E1 /* ShopItemsListFooterCollectionReusableView.m in Sources */,
 				1FFF62521CC5E69D0094D6E1 /* AlertsListCollectionViewController.m in Sources */,

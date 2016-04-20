@@ -125,7 +125,7 @@ static NSString * const reuseIdentifier = @"Categories";
                 
                 
                 NSDictionary *cvPictures = [arrPictures objectAtIndex:0];
-                picture = [cvPictures objectForKey:DB_COL_PATH_ORIG];
+                picture = [cvPictures objectForKey:DB_COL_PATH_PROC];
                 
             }
             

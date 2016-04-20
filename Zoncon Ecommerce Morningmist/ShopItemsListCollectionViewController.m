@@ -147,7 +147,7 @@ int OFFSET = 0;
             if(arrPictures_1.count > 0) {
                 
                 NSDictionary *cvPictures = [arrPictures_1 objectAtIndex:0];
-                picture = [cvPictures objectForKey:DB_COL_PATH_ORIG];
+                picture = [cvPictures objectForKey:DB_COL_PATH_PROC];
                 
             }
             
